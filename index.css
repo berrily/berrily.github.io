@@ -1,0 +1,29 @@
+p
+{background-color: rgba(15, 1, 22, 0.075);
+color: rgb(14, 235, 235);}
+
+#horrible
+{
+    color: rgb(14, 235, 235);
+}
+.class
+{
+    color: rgb(14, 235, 235);
+}
+#garbage
+{
+    background-color: rgb(14, 235, 235);
+    width: 100px;
+    height: 100px;
+    animation-name: happyuug;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: 2;
+}
+@keyframes happyuug
+{
+    0%{background-color: blanchedalmond;top: 0px;left: 0px;}
+    33%{background-color: rgb(16, 69, 104);top: 100px;left: 0px;}
+    66%{background-color: cadetblue;top: 200px;left: 200px;}
+    100%{background-color: rgba(151, 32, 219, 0.76);top: 400px;left: 400px;}
+}
